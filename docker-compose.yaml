@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: minecraft-server
+    ports:
+      - "25565:25565"
+      - "8100:8100"
+    volumes:
+      - ./minecraft-data:/data
+      - ./plugins:/data/plugins
+      - ./world:/data/world
+      - ./world_nether:/data/world_nether
+      - ./world_the_end:/data/world_the_end
+      - ./config:/data/config
+    environment:
+      MOTD: "\u00A7l\u00A7e⚡BroMineServer⚡"
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      VERSION: "1.21.7"
+      MEMORY: "2G"
+      ONLINE_MODE: "false"
+      MAX_PLAYERS: "5"
+    restart: unless-stopped

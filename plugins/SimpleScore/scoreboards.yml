@@ -1,0 +1,14 @@
+status:
+  updateTime: 20 # Atualiza a cada segundo
+  renderTime: 10 # Renderiza a cada 0,5 segundos
+  titles:
+    - text: '&6&l📊 &e&lBRO MINE SERVER!'
+  scores:
+    15: '&0&l┌───────────────┐'
+    14: '&f📡 Ping: &a%player_ping%&7ms'
+    13: '&f⚡ TPS: &a%server_tps%'
+    12: '&f📍 X:&a%player_x% &fY:&a%player_y% &fZ:&a%player_z%'
+    11: '&f🌐 Jogadores: &a%server_online%&f/&a%server_max_players%'
+    10: '&f⏱ Uptime: &a%server_uptime%'
+    9:  '&f🔋 Memória: &a%server_ram_used%&f/&a%server_ram_max% MB'
+    8:  '&0&l└───────────────┘'
