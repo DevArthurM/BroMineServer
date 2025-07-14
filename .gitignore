@@ -2,7 +2,6 @@ minecraft-data
 world
 world_nether
 world_the_end
-plugins/CustomCreatures
 plugins/DamageIndicator
 plugins/HealthBar
 plugins/InteractionVisualizer
@@ -16,3 +15,4 @@ plugins/ToolStats
 plugins/bStats
 plugins/spark
 config
+plugins_extension
