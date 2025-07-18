@@ -302,11 +302,8 @@ display:
     # The lore lines that LevelTools overrides the tool with.
     lines:
       - ""
-      - "=========================="
-      - "&7{item}"
       - "&eLevel: &6{level}"
       - "{progress_bar} &e{xp_formatted}&6/&e{max_xp_formatted}"
-      - "=========================="
       - ""
 
 # Set to true if leveled items should show attributes. Recommended to keep this true to prevent "lore spam".
