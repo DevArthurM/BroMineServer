@@ -35,7 +35,7 @@ anvil_combine: "ADD_BOTH"
 
 # The mathematical formula to calculate the required XP for next level.
 # Placeholders/Variables provided: {current_level}
-level_xp_formula: "100 + {current_level} * 100"
+level_xp_formula: "10 + {current_level} * 10"
 
 # Should blocks that are placed by a player count towards XP?
 playerPlacedBlocks: false
@@ -106,45 +106,84 @@ disabled_worlds:
 # - "enchant2" : Does the same thing as "enchant" but doesn't override existing enchantments. (Ex: "enchant2 efficiency 1")
 # - "enchant3" : Increases the existing level value of the enchant. (Ex: "enchant3 efficiency 1")
 # - "attribute" : Modifies an attribute on the tool. (Ex: "attribute generic.attack_speed 10") OR (Ex: "attribute GENERIC_ATTACK_SPEED 10")
+
 tool_rewards:
+  # Níveis iniciais - Eficiência básica
   1:
-    - "enchant2 efficiency 1"
+    - "enchant3 efficiency 1"
   3:
-    - "enchant2 efficiency 2"
+    - "enchant3 efficiency 1"
   5:
-    - "enchant2 efficiency 3"
+    - "enchant3 efficiency 1"
+  
+  # Introdução da durabilidade
   8:
-    - "enchant2 efficiency 4"
+    - "enchant3 unbreaking 1"
   10:
-    - "enchant2 efficiency 5"
-  11:
-    - "enchant2 unbreaking 1"
-  13:
-    - "enchant2 unbreaking 2"
+    - "enchant3 efficiency 1"
+  12:
+    - "enchant3 unbreaking 1"
+  
+  # Progressão intermediária
   15:
-    - "enchant2 unbreaking 3"
+    - "enchant3 efficiency 1"
+  18:
+    - "enchant3 unbreaking 1"
   20:
-    - "enchant2 mending 1"
-  24:
-    - "enchant2 fortune 1"
-  26:
-    - "enchant2 fortune 2"
+    - "enchant3 mending 1"
+  
+  # Introdução da fortuna
+  22:
+    - "enchant3 fortune 1"
+  25:
+    - "enchant3 efficiency 1"
+  28:
+    - "enchant3 fortune 1"
   30:
-    - "enchant2 fortune 3"
+    - "enchant3 unbreaking 1"
+  
+  # Marcos importantes
+  35:
+    - "enchant3 efficiency 2"
   40:
-    - "enchant2 efficiency 6"
+    - "enchant3 fortune 1"
+  45:
+    - "enchant3 efficiency 1"
+    - "enchant3 unbreaking 1"
+  
+  # Progressão avançada
   50:
-    - "enchant2 fortune 4"
+    - "enchant3 fortune 2"
+  55:
+    - "enchant3 efficiency 2"
+  60:
+    - "enchant3 unbreaking 2"
+  
+  # Níveis altos
   65:
-    - "enchant2 efficiency 7"
-    - "enchant2 unbreaking 10"
+    - "enchant3 efficiency 1"
+    - "enchant3 fortune 1"
+  70:
+    - "enchant3 unbreaking 1"
+  75:
+    - "enchant3 efficiency 2"
+  
+  # Marcos finais
   80:
-    - "enchant2 efficiency 8"
+    - "enchant3 fortune 2"
+    - "enchant3 efficiency 1"
+  85:
+    - "enchant3 unbreaking 2"
   90:
-    - "enchant2 efficiency 9"
+    - "enchant3 efficiency 2"
+  95:
+    - "enchant3 fortune 1"
+  
+  # Nível máximo
   100:
-    - "enchant2 efficiency 10"
-    - "enchant2 fortune 5"
+    - "enchant3 efficiency 3"
+    - "enchant3 fortune 3"
+    - "enchant3 unbreaking 3"
 
 # Configuration for sword rewards given at level ups.
 # Handlers:
@@ -156,93 +195,89 @@ tool_rewards:
 # - "enchant3" : Increases the existing level value of the enchant. (Ex: "enchant3 efficiency 1")
 # - "attribute" : Modifies an attribute on the tool. (Ex: "attribute generic.attack_speed 10") OR (Ex: "attribute GENERIC_ATTACK_SPEED 10")
 sword_rewards:
+  # Níveis iniciais - Dano básico
   1:
-    - "enchant2 sharpness 1"
+    - "enchant3 sharpness 1"
   3:
-    - "enchant2 sharpness 2"
+    - "enchant3 sharpness 1"
   5:
-    - "enchant2 sharpness 3"
+    - "enchant3 sharpness 1"
+  
+  # Introdução da durabilidade
   8:
-    - "enchant2 sharpness 4"
+    - "enchant3 unbreaking 1"
   10:
-    - "enchant2 sharpness 5"
-  11:
-    - "enchant2 unbreaking 1"
-  13:
-    - "enchant2 unbreaking 2"
+    - "enchant3 sharpness 1"
+  12:
+    - "enchant3 unbreaking 1"
+  
+  # Progressão intermediária
   15:
-    - "enchant2 unbreaking 3"
+    - "enchant3 sharpness 1"
+  18:
+    - "enchant3 unbreaking 1"
   20:
-    - "enchant2 mending 1"
-  24:
-    - "enchant2 looting 1"
-  26:
-    - "enchant2 looting 2"
+    - "enchant3 mending 1"
+  
+  # Introdução do looting
+  22:
+    - "enchant3 looting 1"
+  25:
+    - "enchant3 sharpness 1"
+  28:
+    - "enchant3 looting 1"
   30:
-    - "enchant2 looting 3"
+    - "enchant3 unbreaking 1"
+  
+  # Progressão intermediária-avançada
+  32:
+    - "enchant3 fire_aspect 1"
+  35:
+    - "enchant3 sharpness 1"
+  38:
+    - "enchant3 looting 1"
   40:
-    - "enchant2 sharpness 6"
+    - "enchant3 knockback 1"
+  
+  # Marcos importantes
+  45:
+    - "enchant3 sharpness 2"
+    - "enchant3 unbreaking 1"
   50:
-    - "enchant2 looting 4"
+    - "enchant3 looting 1"
+    - "enchant3 fire_aspect 1"
+  55:
+    - "enchant3 sharpness 1"
+  60:
+    - "enchant3 unbreaking 2"
+  
+  # Progressão avançada
   65:
-    - "enchant2 sharpness 7"
-    - "enchant2 unbreaking 10"
+    - "enchant3 sharpness 2"
+    - "enchant3 looting 1"
+  70:
+    - "enchant3 knockback 1"
+  75:
+    - "enchant3 sharpness 1"
+    - "enchant3 unbreaking 1"
+  
+  # Marcos finais
   80:
-    - "enchant2 sharpness 8"
+    - "enchant3 sharpness 2"
+    - "enchant3 looting 1"
+  85:
+    - "enchant3 unbreaking 2"
+    - "enchant3 fire_aspect 1"
   90:
-    - "enchant2 sharpness 9"
+    - "enchant3 sharpness 2"
+  95:
+    - "enchant3 looting 1"
+  
+  # Nível máximo
   100:
-    - "enchant2 sharpness 10"
-    - "enchant2 looting 5"
-
-# Configuration for bow and crossbow rewards given at level ups.
-# Handlers:
-# - "command" : Runs the command provided as the console. (Ex: "command say test")
-# - "player-command" : Runs the command provided as the player. ("Ex: player-command say test")
-# - "player-opcommand" : Runs the command provided as the player with OP permissions. ("Ex: player-opcommand specialenchant enchantment")
-# - "enchant" : Adds an enchantment to the tool. Overrides existing enchantments with the new level provided. (Ex: "enchant efficiency 1")
-# - "enchant2" : Does the same thing as "enchant" but doesn't override existing enchantments. (Ex: "enchant2 efficiency 1")
-# - "enchant3" : Increases the existing level value of the enchant. (Ex: "enchant3 efficiency 1")
-# - "attribute" : Modifies an attribute on the tool. (Ex: "attribute generic.attack_speed 10") OR (Ex: "attribute GENERIC_ATTACK_SPEED 10")
-bow_rewards:
-  1:
-    - "enchant2 power 1"
-  3:
-    - "enchant2 power 2"
-  5:
-    - "enchant2 power 3"
-  8:
-    - "enchant2 power 4"
-  10:
-    - "enchant2 power 5"
-  11:
-    - "enchant2 unbreaking 1"
-  13:
-    - "enchant2 unbreaking 2"
-  15:
-    - "enchant2 unbreaking 3"
-  20:
-    - "enchant2 mending 1"
-  24:
-    - "enchant2 punch 1"
-  26:
-    - "enchant2 punch 2"
-  30:
-    - "enchant2 punch 3"
-  40:
-    - "enchant2 power 6"
-  50:
-    - "enchant2 flame 1"
-  65:
-    - "enchant2 power 7"
-    - "enchant2 unbreaking 10"
-  80:
-    - "enchant2 power 8"
-  90:
-    - "enchant2 power 9"
-  100:
-    - "enchant2 power 10"
-    - "enchant2 infinity 1"
+    - "enchant3 sharpness 3"
+    - "enchant3 looting 2"
+    - "enchant3 unbreaking 3"
 
 # Configuration for tool displays.
 # Placeholders:
@@ -266,9 +301,7 @@ display:
     enabled: true
     # The lore lines that LevelTools overrides the tool with.
     lines:
-      - ""
       - "&eLevel: &6{level}"
-      - ""
       - "{progress_bar} &e{xp_formatted}&6/&e{max_xp_formatted}"
 
 # Set to true if leveled items should show attributes. Recommended to keep this true to prevent "lore spam".

@@ -488,7 +488,7 @@ custom-rules:
         #excluded-list: ['*']
 
   - custom-rule: 'Player Farm Item and XP Limiter'
-    is-enabled: true
+    is-enabled: false
     settings:
       maximum-death-in-chunk-threshold: 15
       max-adjacent-chunks: 5

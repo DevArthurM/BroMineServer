@@ -14,5 +14,6 @@ plugins/Timber
 plugins/ToolStats
 plugins/bStats
 plugins/spark
+plugins/VariableEnderChests
 config
 plugins_extension
