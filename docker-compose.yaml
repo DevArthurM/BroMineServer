@@ -14,11 +14,11 @@ services:
       - ./world_the_end:/data/world_the_end
       - ./config:/data/config
     environment:
-      MOTD: "\u00A7l\u00A7e⚡BroMineServer⚡"
+      MOTD: "§k§l§c>>>§r§l§e⚡§bBro§dMine§6Server§e⚡§c<<< §r§n§5Aniversário §6Arthur §aEdition §4Seus §9Viadim §k§l!!!"
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.7"
-      MEMORY: "3G"
+      MEMORY: "4G"
       ONLINE_MODE: "false"
-      MAX_PLAYERS: "5"
+      MAX_PLAYERS: "10"
     restart: unless-stopped
