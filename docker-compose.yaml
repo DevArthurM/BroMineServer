@@ -13,12 +13,13 @@ services:
       - ./world_nether:/data/world_nether
       - ./world_the_end:/data/world_the_end
       - ./config:/data/config
+      - ./server-icon.png:/data/server-icon.png
     environment:
-      MOTD: "§k§l§c>>>§r§l§e⚡§bBro§dMine§6Server§e⚡§c<<< §r§n§5Aniversário §6Arthur §aEdition §4Seus §9Viadim §k§l!!!"
+      MOTD: "§f§l⚡§e§lBroMineServer§f§l⚡"
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.7"
-      MEMORY: "4G"
+      MEMORY: "2G"
       ONLINE_MODE: "false"
-      MAX_PLAYERS: "10"
+      MAX_PLAYERS: "5"
     restart: unless-stopped

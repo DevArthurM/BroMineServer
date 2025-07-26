@@ -15,5 +15,9 @@ plugins/ToolStats
 plugins/bStats
 plugins/spark
 plugins/VariableEnderChests
+plugins/EconomyShopGUI
+plugins/Essentials
+plugins/Vault
+plugins/BlueMap
 config
 plugins_extension
