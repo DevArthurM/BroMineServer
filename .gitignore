@@ -19,8 +19,6 @@ plugins/VariableEnderChests
 plugins/EconomyShopGUI/transactions
 plugins/Vault
 plugins/BlueMap
-plugins/EconomyShopGUI/cache/*
-plugins/EconomyShopGUI/transaction-log.txt
 config
 plugins_extension
 
