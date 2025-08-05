@@ -20,7 +20,7 @@
 
 # This condition is true when the player has the specified permission
 hasPermission:
-  type: HAS_PERMISSION
+  type: false
   permission: 'simplescore.example.condition'
 
 # This condition is true when the player world equals to "world"

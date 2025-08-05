@@ -1,0 +1,313 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ALLAY_SPAWN_EGG
+        buy: 45000 # Muito raro, útil para coleta
+        sell: 11250
+      '2':
+        material: ARMADILLO_SPAWN_EGG
+        buy: 20000 # Novo mob, moderadamente raro
+        sell: 5000
+      '3':
+        material: AXOLOTL_SPAWN_EGG
+        buy: 35000 # Raro, útil para combate aquático
+        sell: 8750
+      '4':
+        material: BAT_SPAWN_EGG
+        buy: 10000 # Comum, sem utilidade prática
+        sell: 2500
+      '5':
+        material: BLAZE_SPAWN_EGG
+        buy: 40000 # Mob do Nether, drops valiosos
+        sell: 10000
+      '6':
+        material: BOGGED_SPAWN_EGG
+        buy: 25000 # Variante rara do skeleton
+        sell: 6250
+      '7':
+        material: BREEZE_SPAWN_EGG
+        buy: 50000 # Muito raro, novo mob perigoso
+        sell: 12500
+      '8':
+        material: CAMEL_SPAWN_EGG
+        buy: 30000 # Transporte útil, relativamente raro
+        sell: 7500
+      '9':
+        material: CAT_SPAWN_EGG
+        buy: 15000 # Pet útil contra creepers
+        sell: 3750
+      '10':
+        material: CAVE_SPIDER_SPAWN_EGG
+        buy: 18000 # Mais raro que spider comum
+        sell: 4500
+      '11':
+        material: CHICKEN_SPAWN_EGG
+        buy: 10000 # Muito comum, base da economia
+        sell: 2500
+      '12':
+        material: COD_SPAWN_EGG
+        buy: 12000 # Peixe comum
+        sell: 3000
+      '13':
+        material: COW_SPAWN_EGG
+        buy: 11000 # Muito útil para comida/couro
+        sell: 2750
+      '14':
+        material: CREEPER_SPAWN_EGG
+        buy: 22000 # Perigoso, mas útil para pólvora
+        sell: 5500
+      '15':
+        material: DOLPHIN_SPAWN_EGG
+        buy: 28000 # Raro, útil para navegação
+        sell: 7000
+      '16':
+        material: DONKEY_SPAWN_EGG
+        buy: 16000 # Transporte com baú
+        sell: 4000
+      '17':
+        material: DROWNED_SPAWN_EGG
+        buy: 24000 # Fonte de tridente
+        sell: 6000
+      '18':
+        material: ELDER_GUARDIAN_SPAWN_EGG
+        buy: 80000 # Boss, extremamente raro
+        sell: 20000
+      '19':
+        material: ENDERMAN_SPAWN_EGG
+        buy: 35000 # Raro, drops valiosos
+        sell: 8750
+      '20':
+        material: ENDERMITE_SPAWN_EGG
+        buy: 15000 # Raro mas sem muita utilidade
+        sell: 3750
+      '21':
+        material: EVOKER_SPAWN_EGG
+        buy: 55000 # Muito raro, drops únicos
+        sell: 13750
+      '22':
+        material: FOX_SPAWN_EGG
+        buy: 18000 # Bonito, moderadamente útil
+        sell: 4500
+      '23':
+        material: FROG_SPAWN_EGG
+        buy: 20000 # Produz froglight
+        sell: 5000
+      '24':
+        material: GHAST_SPAWN_EGG
+        buy: 45000 # Mob do Nether, muito perigoso
+        sell: 11250
+      '25':
+        material: GLOW_SQUID_SPAWN_EGG
+        buy: 25000 # Raro, drops únicos
+        sell: 6250
+      '26':
+        material: GOAT_SPAWN_EGG
+        buy: 22000 # Raro, drops horn
+        sell: 5500
+      '27':
+        material: GUARDIAN_SPAWN_EGG
+        buy: 32000 # Raro, drops valiosos
+        sell: 8000
+      '28':
+        material: HOGLIN_SPAWN_EGG
+        buy: 30000 # Mob do Nether perigoso
+        sell: 7500
+      '29':
+        material: HORSE_SPAWN_EGG
+        buy: 20000 # Transporte rápido
+        sell: 5000
+      '30':
+        material: HUSK_SPAWN_EGG
+        buy: 16000 # Variante do zombie
+        sell: 4000
+      '31':
+        material: IRON_GOLEM_SPAWN_EGG
+        buy: 38000 # Protetor útil, caro de fazer
+        sell: 9500
+      '32':
+        material: LLAMA_SPAWN_EGG
+        buy: 18000 # Transporte com baú
+        sell: 4500
+      '33':
+        material: MAGMA_CUBE_SPAWN_EGG
+        buy: 26000 # Mob do Nether
+        sell: 6500
+      '34':
+        material: MOOSHROOM_SPAWN_EGG
+        buy: 35000 # Muito raro, infinita comida
+        sell: 8750
+      '35':
+        material: MULE_SPAWN_EGG
+        buy: 17000 # Híbrido útil
+        sell: 4250
+      '36':
+        material: OCELOT_SPAWN_EGG
+        buy: 24000 # Raro, bioma específico
+        sell: 6000
+      '37':
+        material: PANDA_SPAWN_EGG
+        buy: 28000 # Muito raro, bioma específico
+        sell: 7000
+      '38':
+        material: PARROT_SPAWN_EGG
+        buy: 20000 # Pet útil, bioma específico
+        sell: 5000
+      '39':
+        material: PHANTOM_SPAWN_EGG
+        buy: 22000 # Drops úteis para poções
+        sell: 5500
+      '40':
+        material: PIG_SPAWN_EGG
+        buy: 11000 # Comum, útil para comida
+        sell: 2750
+      '41':
+        material: PIGLIN_BRUTE_SPAWN_EGG
+        buy: 42000 # Muito perigoso, raro
+        sell: 10500
+      '42':
+        material: PIGLIN_SPAWN_EGG
+        buy: 30000 # Útil para trading
+        sell: 7500
+      '43':
+        material: PILLAGER_SPAWN_EGG
+        buy: 25000 # Perigoso, drops úteis
+        sell: 6250
+      '44':
+        material: POLAR_BEAR_SPAWN_EGG
+        buy: 26000 # Raro, bioma específico
+        sell: 6500
+      '45':
+        material: PUFFERFISH_SPAWN_EGG
+        buy: 18000 # Útil para poções
+        sell: 4500
+  page2:
+    items:
+      '46':
+        material: RABBIT_SPAWN_EGG
+        buy: 13000 # Comum, comida e pés de coelho
+        sell: 3250
+      '47':
+        material: RAVAGER_SPAWN_EGG
+        buy: 50000 # Boss de raid, muito perigoso
+        sell: 12500
+      '48':
+        material: SALMON_SPAWN_EGG
+        buy: 12000 # Peixe comum
+        sell: 3000
+      '49':
+        material: SHEEP_SPAWN_EGG
+        buy: 11000 # Muito útil para lã
+        sell: 2750
+      '50':
+        material: SHULKER_SPAWN_EGG
+        buy: 75000 # Extremamente raro, End only
+        sell: 18750
+      '51':
+        material: SILVERFISH_SPAWN_EGG
+        buy: 14000 # Irritante mas comum
+        sell: 3500
+      '52':
+        material: SKELETON_HORSE_SPAWN_EGG
+        buy: 60000 # Extremamente raro
+        sell: 15000
+      '53':
+        material: SKELETON_SPAWN_EGG
+        buy: 16000 # Comum, drops úteis
+        sell: 4000
+      '54':
+        material: SLIME_SPAWN_EGG
+        buy: 20000 # Específico, drops úteis
+        sell: 5000
+      '55':
+        material: SNIFFER_SPAWN_EGG
+        buy: 65000 # Mob arqueológico muito raro
+        sell: 16250
+      '56':
+        material: SNOW_GOLEM_SPAWN_EGG
+        buy: 15000 # Fácil de fazer, útil
+        sell: 3750
+      '57':
+        material: SPIDER_SPAWN_EGG
+        buy: 14000 # Comum, drops úteis
+        sell: 3500
+      '58':
+        material: SQUID_SPAWN_EGG
+        buy: 13000 # Comum, tinta útil
+        sell: 3250
+      '59':
+        material: STRAY_SPAWN_EGG
+        buy: 18000 # Variante rara do skeleton
+        sell: 4500
+      '60':
+        material: STRIDER_SPAWN_EGG
+        buy: 32000 # Único transporte no Nether
+        sell: 8000
+      '61':
+        material: TADPOLE_SPAWN_EGG
+        buy: 15000 # Forma jovem do sapo
+        sell: 3750
+      '62':
+        material: TRADER_LLAMA_SPAWN_EGG
+        buy: 22000 # Mais raro que llama comum
+        sell: 5500
+      '63':
+        material: TROPICAL_FISH_SPAWN_EGG
+        buy: 16000 # Decorativo, várias variantes
+        sell: 4000
+      '64':
+        material: TURTLE_SPAWN_EGG
+        buy: 30000 # Raro, drops únicos
+        sell: 7500
+      '65':
+        material: VEX_SPAWN_EGG
+        buy: 40000 # Muito perigoso, invocado
+        sell: 10000
+      '66':
+        material: VILLAGER_SPAWN_EGG
+        buy: 25000 # Muito útil para trading
+        sell: 6250
+      '67':
+        material: VINDICATOR_SPAWN_EGG
+        buy: 28000 # Perigoso, drops únicos
+        sell: 7000
+      '68':
+        material: WANDERING_TRADER_SPAWN_EGG
+        buy: 35000 # Raro, trading especial
+        sell: 8750
+      '69':
+        material: WARDEN_SPAWN_EGG
+        buy: 100000 # Boss mais forte do jogo
+        sell: 25000
+      '70':
+        material: WITCH_SPAWN_EGG
+        buy: 24000 # Rara, drops de poções
+        sell: 6000
+      '71':
+        material: WITHER_SKELETON_SPAWN_EGG
+        buy: 55000 # Muito raro, Nether only
+        sell: 13750
+      '72':
+        material: WOLF_SPAWN_EGG
+        buy: 18000 # Pet útil, proteção
+        sell: 4500
+      '73':
+        material: ZOGLIN_SPAWN_EGG
+        buy: 35000 # Muito perigoso, Nether
+        sell: 8750
+      '74':
+        material: ZOMBIE_HORSE_SPAWN_EGG
+        buy: 65000 # Extremamente raro
+        sell: 16250
+      '75':
+        material: ZOMBIE_SPAWN_EGG
+        buy: 12000 # Muito comum
+        sell: 3000
+      '76':
+        material: ZOMBIE_VILLAGER_SPAWN_EGG
+        buy: 20000 # Útil para curar e obter villager
+        sell: 5000
+      '77':
+        material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+        buy: 26000 # Nether, drops de ouro
+        sell: 6500

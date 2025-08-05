@@ -1,5 +1,6 @@
 minecraft-data
 world
+world_backup
 world_nether
 world_the_end
 plugins/DamageIndicator
@@ -15,9 +16,13 @@ plugins/ToolStats
 plugins/bStats
 plugins/spark
 plugins/VariableEnderChests
-plugins/EconomyShopGUI
-plugins/Essentials
+plugins/EconomyShopGUI/transactions
 plugins/Vault
 plugins/BlueMap
+plugins/EconomyShopGUI/cache/*
+plugins/EconomyShopGUI/transaction-log.txt
 config
 plugins_extension
+
+plugins/Essentials/*
+!plugins/Essentials/config.yml

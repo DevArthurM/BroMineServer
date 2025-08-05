@@ -64,10 +64,12 @@ all_mobs:
   -
 
 all_levellable_mobs:
-  -
+  - EXPERIENCE_BOTTLE:
+      chance: 0.08
+      amount: 2
 
 all_hostile_mobs:
-  -
+  - 
 
 all_passive_mobs:
   -
@@ -94,250 +96,331 @@ all_aquatic_mobs:
 #   ---------------  -  ------------------------------
 #
 ALLAY:
-  -
-
+    - ALLAY_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ARMADILLO:
-  -
-
+    - ARMADILLO_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 AXOLOTL:
-  -
-
+    - AXOLOTL_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 BAT:
-  -
-
+    - BAT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 BEE:
-  -
-
+    - BEE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 BLAZE:
-  -
-
+    - BLAZE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 CAMEL:
-  -
-
+    - CAMEL_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 CAT:
-  -
-
+    - CAT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 CAVE_SPIDER:
-  -
-
+    - CAVE_SPIDER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 CHICKEN:
-  -
-
+    - CHICKEN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 COD:
-  -
-
+    - COD_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 COW:
-  -
-
+    - COW_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 CREEPER:
-  -
-
+    - CREEPER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 DOLPHIN:
-  -
-
+    - DOLPHIN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 DONKEY:
-  -
-
+    - DONKEY_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 DROWNED:
-  -
-
+    - DROWNED_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ELDER_GUARDIAN:
-  -
-
+    - ELDER_GUARDIAN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ENDER_DRAGON:
-  -
-
+    - ENDER_DRAGON_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ENDERMAN:
-  -
-
+    - ENDERMAN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ENDERMITE:
-  -
-
+    - ENDERMITE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 EVOKER:
-  -
-
+    - EVOKER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 FOX:
-  -
-
+    - FOX_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 FROG:
-  -
-
+    - FROG_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 GHAST:
-  -
-
+    - GHAST_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 GLOW_SQUID:
-  -
-
+    - GLOW_SQUID_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 GOAT:
-  -
-
+    - GOAT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 GUARDIAN:
-  -
-
+    - GUARDIAN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 HOGLIN:
-  -
-
+    - HOGLIN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 HORSE:
-  -
-
+    - HORSE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 HUSK:
-  -
-
+    - HUSK_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ILLUSIONER:
-  -
-
+    - ILLUSIONER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 IRON_GOLEM:
-  -
-
+    - IRON_GOLEM_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 LLAMA:
-  -
-
+    - LLAMA_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 MAGMA_CUBE:
-  -
-
+    - MAGMA_CUBE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 MULE:
-  -
-
+    - MULE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 MUSHROOM_COW:
-  -
-
+    - MOOSHROOM_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 OCELOT:
-  -
-
+    - OCELOT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PANDA:
-  -
-
+    - PANDA_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PARROT:
-  -
-
+    - PARROT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PHANTOM:
-  -
-
+    - PHANTOM_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PIG:
-  -
-
+    - PIG_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PIGLIN:
-  -
-
+    - PIGLIN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PIGLIN_BRUTE:
-  -
-
+    - PIGLIN_BRUTE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PILLAGER:
-  -
-
+    - PILLAGER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 POLAR_BEAR:
-  -
-
+    - POLAR_BEAR_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 PUFFERFISH:
-  -
-
+    - PUFFERFISH_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 RABBIT:
-  -
-
+    - RABBIT_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 RAVAGER:
-  -
-
+    - RAVAGER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SALMON:
-  -
-
+    - SALMON_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SHEEP:
-  -
-
+    - SHEEP_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SHULKER:
-  -
-
+    - SHULKER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SILVERFISH:
-  -
-
+    - SILVERFISH_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SKELETON:
-  -
-
+    - SKELETON_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SKELETON_HORSE:
-  -
-
+    - SKELETON_HORSE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SLIME:
-  -
-
+    - SLIME_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SNIFFER:
-  -
-
+    - SNIFFER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SNOWMAN:
-  -
-
+    - SNOW_GOLEM_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SPIDER:
-  -
-
+    - SPIDER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 SQUID:
-  -
-
+    - SQUID_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 STRAY:
-  -
-
+    - STRAY_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 STRIDER:
-  -
-
+    - STRIDER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 TADPOLE:
-  -
-
+    - TADPOLE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 TRADER_LLAMA:
-  -
-
+    - TRADER_LLAMA_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 TROPICAL_FISH:
-  -
-
+    - TROPICAL_FISH_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 TURTLE:
-  -
-
+    - TURTLE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 VEX:
-  -
-
+    - VEX_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 VILLAGER:
-  -
-
+    - VILLAGER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 VINDICATOR:
-  -
-
+    - VINDICATOR_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WANDERING_TRADER:
-  -
-
+    - WANDERING_TRADER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WARDEN:
-  -
-
+    - WARDEN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WITCH:
-  -
-
+    - WITCH_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WITHER:
-  -
-
+    - WITHER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WITHER_SKELETON:
-  -
-
+    - WITHER_SKELETON_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 WOLF:
-  -
-
+    - WOLF_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ZOGLIN:
-  -
-
+    - ZOGLIN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ZOMBIE:
-  -
-
+    - ZOMBIE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ZOMBIE_HORSE:
-  -
-
+    - ZOMBIE_HORSE_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ZOMBIE_VILLAGER:
-  -
-
+    - ZOMBIE_VILLAGER_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 ZOMBIFIED_PIGLIN:
-  -
+    - ZOMBIFIED_PIGLIN_SPAWN_EGG:
+        chance: 0.001
+        amount: 1
 
 
 #
-#   ---------------  -  ------------------------------
-#        Section 04  |  Drop Tables
-#   ---------------  -  ------------------------------
+#   ----------------  ------------------------------
+#        Section 04  rop Tables
+#   ---------------  -----------------------------
 #
 drop-table:
   armor_and_weapons:
+    # ========== ARMADURAS DE FERRO ==========
     - IRON_HELMET:
         groupid: iron_armor
         group-limits:
@@ -358,6 +441,118 @@ drop-table:
         groupid: iron_armor
         equipped: 0.05
         chance: 0.005
+
+    # ========== ARMADURAS DE DIAMANTE ==========
+    - DIAMOND_HELMET:
+        groupid: diamond_armor
+        group-limits:
+          cap-per-item: -1
+          cap-total: 1
+          cap-equipped: 1
+        equipped: 0.03
+        chance: 0.002
+    - DIAMOND_CHESTPLATE:
+        groupid: diamond_armor
+        equipped: 0.03
+        chance: 0.002
+    - DIAMOND_LEGGINGS:
+        groupid: diamond_armor
+        equipped: 0.03
+        chance: 0.002
+    - DIAMOND_BOOTS:
+        groupid: diamond_armor
+        equipped: 0.03
+        chance: 0.002
+
+    # ========== ARMADURAS DE NETHERITE ==========
+    - NETHERITE_HELMET:
+        groupid: netherite_armor
+        group-limits:
+          cap-per-item: -1
+          cap-total: 1
+          cap-equipped: 1
+        equipped: 0.01
+        chance: 0.001
+    - NETHERITE_CHESTPLATE:
+        groupid: netherite_armor
+        equipped: 0.01
+        chance: 0.001
+    - NETHERITE_LEGGINGS:
+        groupid: netherite_armor
+        equipped: 0.01
+        chance: 0.001
+    - NETHERITE_BOOTS:
+        groupid: netherite_armor
+        equipped: 0.01
+        chance: 0.001
+
+    # ========== ARMADURAS DE OURO ==========
+    - GOLDEN_HELMET:
+        groupid: golden_armor
+        group-limits:
+          cap-per-item: -1
+          cap-total: 3
+          cap-equipped: 3
+        equipped: 0.08
+        chance: 0.008
+    - GOLDEN_CHESTPLATE:
+        groupid: golden_armor
+        equipped: 0.08
+        chance: 0.008
+    - GOLDEN_LEGGINGS:
+        groupid: golden_armor
+        equipped: 0.08
+        chance: 0.008
+    - GOLDEN_BOOTS:
+        groupid: golden_armor
+        equipped: 0.08
+        chance: 0.008
+
+    # ========== ARMADURAS DE COURO ==========
+    - LEATHER_HELMET:
+        groupid: leather_armor
+        group-limits:
+          cap-per-item: -1
+          cap-total: 5
+          cap-equipped: 4
+        equipped: 0.15
+        chance: 0.02
+    - LEATHER_CHESTPLATE:
+        groupid: leather_armor
+        equipped: 0.15
+        chance: 0.02
+    - LEATHER_LEGGINGS:
+        groupid: leather_armor
+        equipped: 0.15
+        chance: 0.02
+    - LEATHER_BOOTS:
+        groupid: leather_armor
+        equipped: 0.15
+        chance: 0.02
+
+    # ========== ARMADURAS DE COTA DE MALHA ==========
+    - CHAINMAIL_HELMET:
+        groupid: chainmail_armor
+        group-limits:
+          cap-per-item: -1
+          cap-total: 2
+          cap-equipped: 2
+        equipped: 0.06
+        chance: 0.004
+    - CHAINMAIL_CHESTPLATE:
+        groupid: chainmail_armor
+        equipped: 0.06
+        chance: 0.004
+    - CHAINMAIL_LEGGINGS:
+        groupid: chainmail_armor
+        equipped: 0.06
+        chance: 0.004
+    - CHAINMAIL_BOOTS:
+        groupid: chainmail_armor
+        equipped: 0.06
+        chance: 0.004
+
+    # ========== ARMAS DE FERRO ==========
     - IRON_SWORD:
         groupid: iron_weapons
         group-limits:
@@ -371,10 +566,145 @@ drop-table:
         equipped: 0.05
         chance: 0.005
 
+    # ========== ARMAS DE DIAMANTE ==========
+    - DIAMOND_SWORD:
+        groupid: diamond_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 1
+          cap-equipped: 1
+        equipped: 0.03
+        chance: 0.002
+    - DIAMOND_AXE:
+        groupid: diamond_weapons
+        equipped: 0.03
+        chance: 0.002
 
-#
-#   ---------------  -  ------------------------------
-#        Section 05  |  Developer Settings / Do Not Edit Beyond This Point
-#   ---------------  -  ------------------------------
-#
+    # ========== ARMAS DE NETHERITE ==========
+    - NETHERITE_SWORD:
+        groupid: netherite_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 1
+          cap-equipped: 1
+        equipped: 0.01
+        chance: 0.001
+    - NETHERITE_AXE:
+        groupid: netherite_weapons
+        equipped: 0.01
+        chance: 0.001
+
+    # ========== ARMAS DE OURO ==========
+    - GOLDEN_SWORD:
+        groupid: golden_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 2
+          cap-equipped: 1
+        equipped: 0.08
+        chance: 0.008
+    - GOLDEN_AXE:
+        groupid: golden_weapons
+        equipped: 0.08
+        chance: 0.008
+
+    # ========== ARMAS DE PEDRA ==========
+    - STONE_SWORD:
+        groupid: stone_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 3
+          cap-equipped: 2
+        equipped: 0.12
+        chance: 0.015
+    - STONE_AXE:
+        groupid: stone_weapons
+        equipped: 0.12
+        chance: 0.015
+
+    # ========== ARMAS DE MADEIRA ==========
+    - WOODEN_SWORD:
+        groupid: wooden_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 5
+          cap-equipped: 3
+        equipped: 0.20
+        chance: 0.025
+    - WOODEN_AXE:
+        groupid: wooden_weapons
+        equipped: 0.20
+        chance: 0.025
+
+    # ========== ARMAS À DISTÂNCIA ==========
+    - BOW:
+        groupid: ranged_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 2
+          cap-equipped: 1
+        equipped: 0.07
+        chance: 0.008
+    - CROSSBOW:
+        groupid: ranged_weapons
+        equipped: 0.04
+        chance: 0.003
+    - TRIDENT:
+        groupid: ranged_weapons
+        equipped: 0.02
+        chance: 0.001
+
+    # ========== FERRAMENTAS COMO ARMAS ==========
+    - IRON_PICKAXE:
+        groupid: tool_weapons
+        group-limits:
+          cap-per-item: -1
+          cap-total: 2
+          cap-equipped: 2
+        equipped: 0.06
+        chance: 0.006
+    - DIAMOND_PICKAXE:
+        groupid: tool_weapons
+        equipped: 0.03
+        chance: 0.002
+    - IRON_SHOVEL:
+        groupid: tool_weapons
+        equipped: 0.08
+        chance: 0.008
+    - DIAMOND_SHOVEL:
+        groupid: tool_weapons
+        equipped: 0.04
+        chance: 0.003
+
+    # ========== ESCUDOS ==========
+    - SHIELD:
+        groupid: shields
+        group-limits:
+          cap-per-item: -1
+          cap-total: 1
+          cap-equipped: 1
+        equipped: 0.05
+        chance: 0.004
+
+    # ========== ITENS ESPECIAIS ==========
+    - ARROW:
+        groupid: ammunition
+        group-limits:
+          cap-per-item: -1
+          cap-total: 64
+          cap-equipped: 0
+        equipped: 0.00
+        chance: 0.03
+    - SPECTRAL_ARROW:
+        groupid: ammunition
+        equipped: 0.00
+        chance: 0.005
+    - TIPPED_ARROW:
+        groupid: ammunition
+        equipped: 0.00
+        chance: 0.008
+        groupid: iron_weapons
+        equipped: 0.05
+        chance: 0.005
+
 file-version: 12

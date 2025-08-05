@@ -15,7 +15,7 @@ services:
       - ./config:/data/config
       - ./server-icon.png:/data/server-icon.png
     environment:
-      MOTD: "§f§l⚡§e§lBroMineServer§f§l⚡"
+      MOTD: "§f§l⚡§5§kX§d§lBroMineServer§5§kZ§f§l⚡"
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.7"
